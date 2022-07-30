@@ -2,6 +2,7 @@
   "name": "iceztech/mailer",
   "type": "library",
   "description": "Mailer is a full-featured email creation and transfer class for PHP based on PHPMailer",
+  "license": "MIT",
   "authors": [
     {
       "name": "Isaac",
