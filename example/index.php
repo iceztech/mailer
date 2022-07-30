@@ -2,6 +2,8 @@
 
 use ZikzayMail\Mailer\Mailer;
 
+use function ZikzayMail\Mailer\dnd;
+
 require 'src/Mailer.php';
 
 $host = 'iceztech.com';
@@ -15,4 +17,5 @@ $to = 'zikzay@gmail.com';
 // var_dump($send);
 
 $mail = new Mailer($username, $password, 'Iceztech', $host);
-$mail->send($to, $subject, $message);
+$snd = $mail->send($to, $subject, $message);
+dnd($send);

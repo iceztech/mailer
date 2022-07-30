@@ -23,7 +23,7 @@ class Mailer
     private function settings($host, $username, $password, $senderName)
     {
         date_default_timezone_set('Etc/UTC'); // Enable verbose debug output
-        $this->mail->SMTPDebug = SMTP::DEBUG_SERVER; // Enable verbose debug output
+        $this->mail->SMTPDebug = SMTP::DEBUG_OFF; // Enable verbose debug output
         $this->mail->isSMTP();
         $this->mail->Host = $host;
         $this->mail->Hostname = 'localhost.localdomain';
