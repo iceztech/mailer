@@ -1,0 +1,39 @@
+{
+  "name": "iceztech/mailer",
+  "type": "library",
+  "description": "Mailer is a full-featured email creation and transfer class for PHP based on PHPMailer",
+  "authors": [
+    {
+      "name": "Isaac",
+      "email": "zikzay@yahoo.com"
+    }
+  ],
+  "funding": [
+    {
+      "url": "https://github.com/Synchro",
+      "type": "github"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "ext-ctype": "*",
+    "ext-filter": "*",
+    "ext-hash": "*",
+    "phpmailer/phpmailer": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZikzayMail\\Mailer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ZikzayMail\\Test\\": "test/"
+    }
+  }
+}
