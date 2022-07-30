@@ -4,7 +4,7 @@ use ZikzayMail\Mailer\Mailer;
 
 require 'src/Mailer.php';
 
-$host = 'localhost';
+$host = 'iceztech.com';
 $username = 'isaac@iceztech.com';
 $password = 'MailerPassword@123';
 $subject = 'Test Subject';
