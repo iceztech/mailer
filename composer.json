@@ -3,23 +3,13 @@
   "type": "library",
   "description": "Mailer is a full-featured email creation and transfer class for PHP based on PHPMailer",
   "license": "MIT",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Isaac",
       "email": "zikzay@yahoo.com"
     }
   ],
-  "funding": [
-    {
-      "url": "https://github.com/Synchro",
-      "type": "github"
-    }
-  ],
-  "config": {
-    "allow-plugins": {
-      "dealerdirect/phpcodesniffer-composer-installer": true
-    }
-  },
   "require": {
     "php": ">=5.5.0",
     "ext-ctype": "*",
